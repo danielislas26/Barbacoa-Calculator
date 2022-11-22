@@ -30,7 +30,7 @@ let Refresco = new Platillo('Refresco',25);
 //const container = document.querySelector('.icons-container');
 //container.innerHTML = Dorado.precio;
 
-const element = document.querySelector('.icons-container');
+
 
 /*let p = document.createElement('p');
 p.textContent = 'lo lograste estoy dentro de un elemento renderizado con js :D';
@@ -40,7 +40,10 @@ element.appendChild(p);
 nombres = ['Kg','Taco','Dorado','1LtCSM','1/2CSM','Boing','Cafe','Refresco'];
 precios = [440,30,24,50,25,20,20,25];
 
+Total = [];
 
+
+const element = document.querySelector('.icons-container');
 
 for(i=0;i<=7;i++){
     let div = document.createElement('div');
@@ -53,6 +56,6 @@ for(i=0;i<=7;i++){
     h3.classList.add('icon-text');
     element.appendChild(div);
     
-    
-    
 };
+
+
