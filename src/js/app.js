@@ -43,8 +43,16 @@ precios = [440,30,24,50,25,20,20,25];
 
 
 for(i=0;i<=7;i++){
-    let idiv = document.createElement('div');
-    idiv.classList.add('cuadro')
-    idiv.textContent = `${nombres[i]}`;
-    element.appendChild(idiv);
+    let div = document.createElement('div');
+    let h3 = document.createElement('h3');
+    
+    
+    div.classList.add('cuadro');
+    div.appendChild(h3);
+    h3.textContent = `${nombres[i]}`;
+    h3.classList.add('icon-text');
+    element.appendChild(div);
+    
+    
+    
 };

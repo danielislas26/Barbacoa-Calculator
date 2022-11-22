@@ -308,7 +308,7 @@ template {
 }
 
 body {
-  background: #C3E85A;
+  background: #8CB369;
 }
 
 .icons-container {
@@ -320,5 +320,13 @@ body {
 }
 
 .cuadro {
-  background: #FFB3C6;
+  background: #F4A259;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-text {
+  color: #fff;
 }
