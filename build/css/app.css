@@ -344,3 +344,15 @@ body {
 .displayer p {
   margin: 0;
 }
+
+.display-compras {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
