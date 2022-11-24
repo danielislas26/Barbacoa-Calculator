@@ -1,7 +1,10 @@
 body{
     background: #8CB369;
+    
 }
-
+button{
+    background-color: #F4A259;
+}
 .icons-container{
     display: grid;
     gap: 1rem;
@@ -30,7 +33,7 @@ body{
 .displayer{
     height: 80px;
     background-color: #FEF7BA;
-    margin: 0 1rem 0 1rem;
+    margin: 1rem 1rem 0 1rem;
     display: flex;
     justify-content: space-around;
     padding: 1rem 0 1rem 0;

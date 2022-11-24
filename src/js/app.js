@@ -41,8 +41,18 @@ nombres = ['Kg','Taco','Dorado','1LtCSM','1/2CSM','Boing','Cafe','Refresco'];
 precios = [440,30,24,50,25,20,20,25];
 
 const menuData =[{
-    name: 'Kg',
+    name: '1Kg',
     price: 440,
+    cantidad:0,
+},
+{
+    name: '1/2Kg',
+    price: 220,
+    cantidad:0,
+},
+{
+    name: '1/4Kg',
+    price: 110,
     cantidad:0,
 },
 {
@@ -166,7 +176,7 @@ Total = [];
 
 const element = document.querySelector('.icons-container');
 
-for(i=0;i<=7;i++){
+/*for(i=0;i<=7;i++){
     let div = document.createElement('div');
     let h3 = document.createElement('h3');
     
@@ -180,6 +190,6 @@ for(i=0;i<=7;i++){
     
 };
 
-
+*/
 
 
